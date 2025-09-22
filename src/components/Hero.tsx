@@ -16,21 +16,21 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto">
           <div className="mb-12">
             {/* Avatar */}
-            <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-600 to-emerald-600 flex items-center justify-center text-white text-5xl font-bold shadow-2xl ring-4 ring-white/20">
-              田中
+            <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-600 to-emerald-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl ring-4 ring-white/20">
+              片平
             </div>
             
             {/* Name and title */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-              田中 太郎
+              片平 遼介
             </h1>
             <p className="text-2xl sm:text-3xl text-gray-600 mb-8 font-medium">
-              フルスタックエンジニア
+              PHP/Laravel エンジニア
             </p>
             <p className="text-xl text-gray-500 max-w-3xl mx-auto mb-12 leading-relaxed">
-              最新技術を活用した革新的なソリューション開発に情熱を注いでいます。
+              企業向けWEBアプリケーションの設計から保守まで幅広く対応しています。
               <br className="hidden sm:block" />
-              React、Node.js、クラウドアーキテクチャを専門としています。
+              PHP、Laravel、Docker、AWSを活用した開発を専門としています。
             </p>
           </div>
 

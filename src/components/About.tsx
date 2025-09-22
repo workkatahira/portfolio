@@ -5,23 +5,23 @@ const About = () => {
   const highlights = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: 'フロントエンド開発',
-      description: 'React, TypeScript, Next.js'
+      title: 'PHP開発',
+      description: 'PHP, Laravel, MySQL'
     },
     {
       icon: <Database className="w-6 h-6" />,
-      title: 'バックエンド開発',
-      description: 'Node.js, Python, PostgreSQL'
+      title: 'WEBアプリ開発',
+      description: '企業向けシステム開発'
     },
     {
       icon: <Globe className="w-6 h-6" />,
-      title: 'クラウド・DevOps',
-      description: 'AWS, Docker, CI/CD'
+      title: 'インフラ・DevOps',
+      description: 'Docker, AWS, Git'
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
-      title: 'モバイル開発',
-      description: 'React Native, Flutter'
+      title: 'テスト・保守',
+      description: '品質管理、運用保守'
     }
   ];
 
@@ -35,7 +35,7 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">自己紹介</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-emerald-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            スケーラブルなWebアプリケーションとモバイルソリューションの構築において5年以上の経験を持つ、情熱的なソフトウェアエンジニアです。
+            新卒未経験からスタートし、テスト業務を通じてPHPを習得。現在は企業向けWEBアプリケーションの開発に従事しているエンジニアです。
           </p>
         </div>
 
@@ -43,12 +43,11 @@ const About = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <p className="text-gray-700 text-lg leading-relaxed">
-                フルスタック開発の強固な基盤を持ち、実世界の問題を解決するユーザー中心のアプリケーション作成を専門としています。
-                スタートアップから企業レベルのプロジェクトまで幅広い経験があり、常に高品質なソリューションを提供してきました。
+                株式会社システナでテスト業務を経験し、自己学習でPHPを習得。現在の企業では、Docker、Git、AWSを活用した企業向けWEBアプリケーションの設計から保守まで幅広く担当しています。
               </p>
               <p className="text-gray-700 text-lg leading-relaxed">
-                特に最新のWeb技術、クリーンコードの実践、継続的な学習に情熱を注いでいます。
-                コーディング以外の時間は、オープンソースプロジェクトへの貢献や新技術の探求に取り組んでいます。
+                メインで扱っている言語はPHP、Laravelで、実用的で保守性の高いコードを書くことを心がけています。
+                継続的な学習を通じて、より良いソリューションの提供を目指しています。
               </p>
             </div>
             

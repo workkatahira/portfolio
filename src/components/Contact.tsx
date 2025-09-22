@@ -26,19 +26,19 @@ const Contact = () => {
     {
       icon: <Mail size={20} />,
       title: 'メール',
-      value: 'tanaka.taro@example.com',
-      link: 'mailto:tanaka.taro@example.com'
+      value: 'katahira.ryosuke@example.com',
+      link: 'mailto:katahira.ryosuke@example.com'
     },
     {
       icon: <Phone size={20} />,
       title: '電話',
-      value: '+81 90-1234-5678',
-      link: 'tel:+81901234567'
+      value: 'お問い合わせください',
+      link: null
     },
     {
       icon: <MapPin size={20} />,
       title: '所在地',
-      value: '東京都',
+      value: '日本',
       link: null
     }
   ];
@@ -79,8 +79,8 @@ const Contact = () => {
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">お気軽にご連絡ください</h3>
             <p className="text-gray-600 mb-8 text-lg">
-              フリーランスプロジェクト、正社員のポジション、コラボレーションなど、
-              新しい機会についてお聞かせいただくことに常に興味があります。お気軽にお声がけください！
+              PHP/Laravelを活用したWEBアプリケーション開発、システム設計、保守・運用など、
+              新しいプロジェクトについてお聞かせいただくことに常に興味があります。お気軽にお声がけください！
             </p>
 
             <div className="space-y-6 mb-8">

@@ -10,15 +10,17 @@ const Footer = () => {
             <p className="text-gray-400">一行のコードから未来を築く。</p>
           </div>
           
-          <div className="flex items-center text-gray-400">
-            <span>作成者 </span>
-            <Heart size={16} className="mx-1 text-red-500" fill="currentColor" />
-            <span> 田中太郎</span>
+          <div className="flex flex-wrap gap-6 text-gray-400">
+            <a href="#about" className="hover:text-white transition-colors">自己紹介</a>
+            <a href="#skills" className="hover:text-white transition-colors">スキル</a>
+            <a href="#projects" className="hover:text-white transition-colors">制作実績</a>
+            <a href="#experience" className="hover:text-white transition-colors">職歴</a>
+            <a href="#contact" className="hover:text-white transition-colors">お問い合わせ</a>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} 田中太郎. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} 片平遼介. All rights reserved.</p>
         </div>
       </div>
     </footer>

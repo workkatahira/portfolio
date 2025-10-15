@@ -21,7 +21,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Yu Gothic', 'メイリオ', 'Meiryo', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'Noto Sans JP', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Yu Gothic', 'メイリオ', 'Meiryo', 'system-ui', 'sans-serif'],
+        display: ['Inter', 'Noto Sans JP', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Yu Gothic', 'メイリオ', 'Meiryo', 'system-ui', 'sans-serif'],
       },
     },
   },

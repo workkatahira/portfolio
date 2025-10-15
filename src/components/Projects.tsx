@@ -16,7 +16,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">制作実績</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold font-display text-gray-900 mb-4">制作実績</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             現在制作中のプロジェクトと今後の予定
           </p>

@@ -28,8 +28,10 @@ const Header = () => {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <h1 className={`text-2xl font-bold transition-colors duration-300 ${
-              isScrolled ? 'text-gray-900' : 'text-white drop-shadow-lg'
+            <h1 className={`text-3xl font-bold font-display transition-all duration-300 ${
+              isScrolled 
+                ? 'text-blue-600' 
+                : 'text-blue-600 drop-shadow-2xl'
             }`}>
               ポートフォリオ
             </h1>

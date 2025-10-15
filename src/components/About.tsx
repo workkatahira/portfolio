@@ -31,7 +31,7 @@ const About = () => {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-20">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">自己紹介</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold font-display text-gray-900 mb-6">自己紹介</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-emerald-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             新卒未経験からスタートし、ChatGPT搭載ロボットのテスト業務を通じてPHPを習得。現在は企業向け年金関連WebシステムのLaravel移行と新規サービス開発に従事しているエンジニアです。

@@ -20,10 +20,10 @@ const Hero = () => {
             </div>
             
             {/* Name and title */}
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold font-display text-gray-900 mb-6 leading-tight">
               片平 遼介
             </h1>
-            <p className="text-2xl sm:text-3xl text-gray-600 mb-8 font-medium">
+            <p className="text-2xl sm:text-3xl text-gray-600 mb-8 font-medium font-sans">
               PHP/Laravel エンジニア
             </p>
             <p className="text-xl text-gray-500 max-w-3xl mx-auto mb-12 leading-relaxed">
@@ -42,10 +42,11 @@ const Hero = () => {
               お問い合わせ
             </a>
             <a
-              href="#"
-              className="btn-secondary text-lg px-8 py-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+              href="/portfolio/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
             >
-              <Download size={20} className="mr-2" />
               履歴書ダウンロード
             </a>
           </div>

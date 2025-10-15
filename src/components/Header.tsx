@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Menu, X, Github, Mail } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +57,9 @@ const Header = () => {
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/workkatahira" 
+              target="_blank"
+              rel="noopener noreferrer"
               className={`p-2 rounded-lg transition-all duration-200 hover:scale-110 ${
                 isScrolled 
                   ? 'text-gray-600 hover:text-gray-900 hover:bg-gray-100' 
@@ -67,17 +69,7 @@ const Header = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com" 
-              className={`p-2 rounded-lg transition-all duration-200 hover:scale-110 ${
-                isScrolled 
-                  ? 'text-gray-600 hover:text-blue-600 hover:bg-blue-50' 
-                  : 'text-white/80 hover:text-white hover:bg-white/10'
-              }`}
-            >
-              <Linkedin size={20} />
-            </a>
-            <a 
-              href="mailto:contact@example.com" 
+              href="mailto:katahira.work217@gmail.com" 
               className={`p-2 rounded-lg transition-all duration-200 hover:scale-110 ${
                 isScrolled 
                   ? 'text-gray-600 hover:text-gray-900 hover:bg-gray-100' 

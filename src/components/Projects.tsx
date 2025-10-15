@@ -1,31 +1,14 @@
-import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'ECサイトプラットフォーム',
-      description: 'React、Node.js、PostgreSQLで構築されたフルスタックECソリューション。ユーザー認証、決済処理、管理画面などの機能を実装。',
-      image: 'https://images.pexels.com/photos/4050287/pexels-photo-4050287.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com'
-    },
-    {
-      title: 'タスク管理アプリ',
-      description: 'リアルタイム更新、チーム協働機能、高度なプロジェクト追跡機能を備えた協働型タスク管理アプリケーション。',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io', 'Tailwind'],
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com'
-    },
-    {
-      title: '気象分析ダッシュボード',
-      description: 'データ可視化、過去の傾向分析、機械学習を用いた予測モデリングを備えた包括的な気象分析プラットフォーム。',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Vue.js', 'Python', 'FastAPI', 'Chart.js', 'Docker'],
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com'
+      title: 'ポートフォリオサイト',
+      description: 'React + TypeScript + Viteで構築されたレスポンシブなポートフォリオサイト。Tailwind CSSを使用したモダンなデザインと、スムーズなアニメーションを実装。',
+      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Lucide React'],
+      githubUrl: 'https://github.com/workkatahira/portfolio',
+      liveUrl: 'http://localhost:5173'
     }
   ];
 
@@ -35,7 +18,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">制作実績</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            技術スキルと問題解決能力を示すプロジェクトの選択
+            現在制作中のプロジェクトと今後の予定
           </p>
         </div>
 
@@ -68,6 +51,8 @@ const Projects = () => {
                 <div className="flex justify-between items-center">
                   <a 
                     href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center text-gray-600 hover:text-gray-900 transition-colors"
                   >
                     <Github size={16} className="mr-2" />
@@ -75,6 +60,8 @@ const Projects = () => {
                   </a>
                   <a 
                     href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center text-blue-600 hover:text-blue-700 transition-colors font-medium"
                   >
                     <ExternalLink size={16} className="mr-2" />

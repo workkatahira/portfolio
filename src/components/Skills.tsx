@@ -1,35 +1,32 @@
-import React from 'react';
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'バックエンド',
+      title: 'プログラミング言語',
       skills: [
-        { name: 'PHP', level: 90 },
-        { name: 'Laravel', level: 85 },
-        { name: 'MySQL', level: 80 },
-        { name: 'JavaScript', level: 75 },
-        { name: 'HTML/CSS', level: 80 }
+        { name: 'PHP 8.0', level: 90 },
+        { name: 'HTML', level: 85 },
+        { name: 'CSS', level: 85 },
+        { name: 'JavaScript', level: 80 },
+        { name: 'SQL', level: 85 }
+      ]
+    },
+    {
+      title: 'フレームワーク・DB',
+      skills: [
+        { name: 'Laravel', level: 90 },
+        { name: 'MySQL', level: 85 },
+        { name: 'Linux', level: 80 }
       ]
     },
     {
       title: 'インフラ・ツール',
       skills: [
+        { name: 'AWS EC2', level: 80 },
+        { name: 'AWS S3', level: 75 },
         { name: 'Docker', level: 80 },
-        { name: 'AWS', level: 75 },
-        { name: 'Git', level: 85 },
-        { name: 'Linux', level: 70 },
-        { name: 'CI/CD', level: 70 }
-      ]
-    },
-    {
-      title: 'その他',
-      skills: [
-        { name: 'テスト業務', level: 85 },
-        { name: 'システム設計', level: 75 },
-        { name: '保守・運用', level: 80 },
-        { name: 'チーム開発', level: 80 },
-        { name: '自己学習', level: 90 }
+        { name: 'BackLog', level: 85 },
+        { name: 'Git', level: 85 }
       ]
     }
   ];

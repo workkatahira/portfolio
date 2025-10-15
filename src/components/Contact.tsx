@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-react';
+import { Mail, MapPin, Github, Send } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -26,14 +26,8 @@ const Contact = () => {
     {
       icon: <Mail size={20} />,
       title: 'メール',
-      value: 'katahira.ryosuke@example.com',
-      link: 'mailto:katahira.ryosuke@example.com'
-    },
-    {
-      icon: <Phone size={20} />,
-      title: '電話',
-      value: 'お問い合わせください',
-      link: null
+      value: 'katahira.work217@gmail.com',
+      link: 'mailto:katahira.work217@gmail.com'
     },
     {
       icon: <MapPin size={20} />,
@@ -47,20 +41,8 @@ const Contact = () => {
     {
       icon: <Github size={24} />,
       name: 'GitHub',
-      url: 'https://github.com',
+      url: 'https://github.com/workkatahira',
       color: 'hover:text-gray-900'
-    },
-    {
-      icon: <Linkedin size={24} />,
-      name: 'LinkedIn',
-      url: 'https://linkedin.com',
-      color: 'hover:text-blue-600'
-    },
-    {
-      icon: <Twitter size={24} />,
-      name: 'Twitter',
-      url: 'https://twitter.com',
-      color: 'hover:text-blue-400'
     }
   ];
 
@@ -110,6 +92,8 @@ const Contact = () => {
                   <a
                     key={index}
                     href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`text-gray-400 ${social.color} transition-colors p-2 rounded-lg hover:bg-gray-100`}
                     aria-label={social.name}
                   >

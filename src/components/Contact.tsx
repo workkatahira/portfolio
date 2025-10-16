@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here
-    console.log('Form submitted:', formData);
+    alert('お問い合わせありがとうございます。メールでご連絡いたします。');
   };
 
   const contactInfo = [

@@ -8,7 +8,7 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Lucide React'],
       githubUrl: 'https://github.com/workkatahira/portfolio',
-      liveUrl: 'http://localhost:5173'
+      liveUrl: 'https://workkatahira.github.io/portfolio/'
     }
   ];
 

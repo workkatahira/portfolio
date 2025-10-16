@@ -20,13 +20,16 @@ const Contact = () => {
     e.preventDefault();
     
     // メール送信のためのURLを作成
-    const subject = encodeURIComponent(formData.subject);
+    const subject = encodeURIComponent(`【ポートフォリオからのお問い合わせ】${formData.subject}`);
     const body = encodeURIComponent(
-      `お名前: ${formData.name}\nメールアドレス: ${formData.email}\n\nメッセージ:\n${formData.message}`
+      `お名前: ${formData.name}\nメールアドレス: ${formData.email}\n件名: ${formData.subject}\n\nメッセージ:\n${formData.message}\n\n---\nこのメールはポートフォリオサイト（https://workkatahira.github.io/portfolio/）から送信されました。`
     );
     
     // メールアプリを開く
-    window.location.href = `mailto:katahira.work217@gmail.com?subject=${subject}&body=${body}`;
+    window.open(`mailto:katahira.work217@gmail.com?subject=${subject}&body=${body}`, '_blank');
+    
+    // 成功メッセージを表示
+    alert('メールアプリが開きました。内容を確認して送信してください。');
     
     // フォームをリセット
     setFormData({
@@ -101,6 +104,17 @@ const Contact = () => {
             </div>
 
             <div>
+              <h4 className="text-lg font-semibold text-gray-900 mb-4">直接メール</h4>
+              <a 
+                href="mailto:katahira.work217@gmail.com?subject=【ポートフォリオからのお問い合わせ】"
+                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              >
+                <Mail size={20} className="mr-2" />
+                直接メールを送信
+              </a>
+            </div>
+
+            <div className="mt-6">
               <h4 className="text-lg font-semibold text-gray-900 mb-4">SNS</h4>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (

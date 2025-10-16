@@ -18,8 +18,23 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    alert('お問い合わせありがとうございます。メールでご連絡いたします。');
+    
+    // メール送信のためのURLを作成
+    const subject = encodeURIComponent(formData.subject);
+    const body = encodeURIComponent(
+      `お名前: ${formData.name}\nメールアドレス: ${formData.email}\n\nメッセージ:\n${formData.message}`
+    );
+    
+    // メールアプリを開く
+    window.location.href = `mailto:katahira.work217@gmail.com?subject=${subject}&body=${body}`;
+    
+    // フォームをリセット
+    setFormData({
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    });
   };
 
   const contactInfo = [

@@ -24,12 +24,12 @@ const Hero = () => {
               片平 遼介
             </h1>
             <p className="text-2xl sm:text-3xl text-gray-600 mb-8 font-medium font-sans">
-              PHP/Laravel エンジニア
+              PHP/Laravel & Next.js エンジニア
             </p>
             <p className="text-xl text-gray-500 max-w-3xl mx-auto mb-12 leading-relaxed">
-              企業向けWEBアプリケーションの設計から保守まで幅広く対応しています。
+              企業向けWEBアプリケーションの設計から保守、新規サービス開発まで幅広く対応しています。
               <br className="hidden sm:block" />
-              PHP、Laravel、Docker、AWSを活用した開発を専門としています。
+              PHP/Laravel、Next.js/React/TypeScript、Docker、AWSを活用した開発を専門としています。
             </p>
           </div>
 
@@ -42,12 +42,12 @@ const Hero = () => {
               お問い合わせ
             </a>
             <a
-              href="/portfolio/resume.pdf"
+              href="/【片平遼介】スキルシート.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
             >
-              履歴書ダウンロード
+              スキルシートダウンロード
             </a>
           </div>
 

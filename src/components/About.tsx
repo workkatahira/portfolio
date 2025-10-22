@@ -4,13 +4,13 @@ const About = () => {
   const highlights = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: 'PHP開発',
-      description: 'PHP, Laravel, MySQL'
+      title: 'PHP/Laravel開発',
+      description: '基盤更改、新規サービス開発'
     },
     {
       icon: <Database className="w-6 h-6" />,
-      title: 'Laravel移行・新規開発',
-      description: '独自フレームワークからLaravel移行'
+      title: 'Next.js/React開発',
+      description: '日程調整サービス開発'
     },
     {
       icon: <Globe className="w-6 h-6" />,
@@ -34,7 +34,7 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl font-bold font-display text-gray-900 mb-6">自己紹介</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-emerald-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            新卒未経験からスタートし、ChatGPT搭載ロボットのテスト業務を通じてPHPを習得。現在は企業向け年金関連WebシステムのLaravel移行と新規サービス開発に従事しているエンジニアです。
+            企業向け年金関連WebシステムのLaravel移行と新規サービス開発、日程調整サービス開発に従事しているエンジニアです。
           </p>
         </div>
 
@@ -48,13 +48,13 @@ const About = () => {
                 利用企業の登録・変更・承認機能の実装や通知メールの送信、DBからのCSV出力・取込機能の開発を行い、加えて従業員向けのアンケート・お知らせ配信機能やバッチ処理の設計・実装にも携わりました。
               </p>
               <p className="text-gray-700 text-lg leading-relaxed">
-                開発にあたっては、コードの可読性と保守性を重視し、将来的な拡張やメンテナンスを考慮した実装を心掛けています。結合テストを通じて業務フロー全体の品質向上に貢献し、本番リリース後の運用・障害対応も経験しました。
+                また、日程調整サービス開発ではNext.js/React/TypeScriptを使用したフルスタック開発を担当し、UUID生成によるイベントURL管理やリアルタイム集計機能の設計・実装を行いました。レスポンシブ対応やUI/UX改善にも注力しています。
               </p>
             </div>
             
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium shadow-sm">Laravel移行</span>
-              <span className="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium shadow-sm">保守性重視</span>
+              <span className="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium shadow-sm">Next.js開発</span>
               <span className="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium shadow-sm">品質向上</span>
               <span className="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium shadow-sm">課題解決力</span>
             </div>

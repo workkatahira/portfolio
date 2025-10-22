@@ -5,16 +5,19 @@ const Skills = () => {
       title: 'プログラミング言語',
       skills: [
         { name: 'PHP 8.0', level: 90 },
+        { name: 'JavaScript', level: 85 },
+        { name: 'TypeScript', level: 80 },
         { name: 'HTML', level: 85 },
         { name: 'CSS', level: 85 },
-        { name: 'JavaScript', level: 80 },
         { name: 'SQL', level: 85 }
       ]
     },
     {
-      title: 'フレームワーク・DB',
+      title: 'フレームワーク・ライブラリ',
       skills: [
         { name: 'Laravel', level: 90 },
+        { name: 'Next.js', level: 80 },
+        { name: 'React', level: 80 },
         { name: 'MySQL', level: 85 },
         { name: 'Linux', level: 80 }
       ]
@@ -22,11 +25,11 @@ const Skills = () => {
     {
       title: 'インフラ・ツール',
       skills: [
+        { name: 'Docker', level: 85 },
         { name: 'AWS EC2', level: 80 },
         { name: 'AWS S3', level: 75 },
-        { name: 'Docker', level: 80 },
-        { name: 'BackLog', level: 85 },
-        { name: 'Git', level: 85 }
+        { name: 'Git', level: 90 },
+        { name: 'BackLog', level: 85 }
       ]
     }
   ];

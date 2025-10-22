@@ -17,8 +17,7 @@ const Header = () => {
     { href: '#about', label: '自己紹介' },
     { href: '#skills', label: 'スキル' },
     { href: '#projects', label: '制作実績' },
-    { href: '#experience', label: '経歴' },
-    { href: '#contact', label: 'お問い合わせ' }
+    { href: '#experience', label: '経歴' }
   ];
 
   return (

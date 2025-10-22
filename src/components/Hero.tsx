@@ -42,7 +42,7 @@ const Hero = () => {
               お問い合わせ
             </a>
             <a
-              href="/【片平遼介】スキルシート.pdf"
+              href="./【片平遼介】スキルシート.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"

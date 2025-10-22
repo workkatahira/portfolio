@@ -35,20 +35,7 @@ const Hero = () => {
 
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <a
-              href="#contact"
-              className="btn-primary text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-            >
-              お問い合わせ
-            </a>
-            <a
-              href="./【片平遼介】スキルシート.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-            >
-              スキルシートダウンロード
-            </a>
+            {/* Buttons removed */}
           </div>
 
           {/* Scroll indicator */}
